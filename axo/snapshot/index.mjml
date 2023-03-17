@@ -1,0 +1,293 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="h1" font-family="Arial" font-size="38px" color="#252D2A" font-weight="700" line-height="1.18" />
+      <mj-class name="h2" font-family="Arial" font-size="24px" color="#252D2A" font-weight="700" line-height="1.25" />
+      <mj-class name="h3" font-family="Arial" font-size="20px" color="#252D2A" font-weight="700" line-height="1.5" />
+      <mj-class name="h4" font-family="Arial" font-size="16px" color="#252D2A" font-weight="700" line-height="1.5" />
+      <mj-class name="quote-text" font-family="Arial" font-size="20px" color="#252D2A" font-weight="400" line-height="1.5" />
+      <mj-class name="eyebrow-text" font-family="Arial" font-size="14px" color="#252D2A" font-weight="700" line-height="1.5" text-transform="uppercase" />
+      <mj-class name="body-text" font-family="Arial" font-size="16px" color="#252D2A" font-weight="400" line-height="1.5" />
+      <mj-class name="footer-text" font-family="Arial" font-size="12px" color="#474747" font-weight="400" line-height="1.5" />
+      <mj-class name="link-text" font-family="Arial" font-size="12px" color="#474747" font-weight="400" line-height="1.5" text-decoration="underline" />
+      <mj-class name="button-text" font-family="Arial" font-size="16px" color="#252D2A" font-weight="700" line-height="1.5" />
+
+      <mj-class name="main-container" background-color="#ffffff" />
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#efefef">
+    <!-- Logo -->
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%" padding="15px 0">
+        <mj-image align="left" width="100px" src="https://info.axonify.com/rs/883-PFS-793/images/Axonify-Logo-Full Color%402x.png" alt="Axonify logo" />
+      </mj-column>
+    </mj-section>
+    <!-- Header -->
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%" padding="0px">
+        <mj-image align="center" width="600px" src="https://via.placeholder.com/600x180" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Intro Section -->
+    <mj-section padding="25px 0 25px 0" background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-text mj-class="body-text" align="center">
+          Hi Maria, it’s Brandon Hak from Axonify touching base with your Monthly Snapshot.
+        </mj-text>
+        <mj-text mj-class="body-text" align="center" font-weight="700">
+          How do your participation numbers match up?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Recap Section  -->
+    <mj-wrapper background-color="#035E42" padding="0 25px 40px 25px">
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text mj-class="h2" align="center" color="#ffffff" padding="40px 0">
+            February 2023
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- First Box -->
+      <mj-section background-color="#ffffff" padding="15px 0">
+        <mj-column width="30%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h1" color="#035E42" padding="0 15px">
+            89%
+          </mj-text>
+        </mj-column>
+        <mj-column width="60%" background-color="#ffffff" vertical-align="middle" padding="0">
+          <mj-text mj-class="body-text" font-weight="700" padding="0 15px">
+            Your Current Knowledge
+          </mj-text>
+          <mj-text mj-class="body-text" padding="0 15px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+      <!-- Second Box -->
+      <mj-section background-color="#ffffff" padding="15px 0">
+        <mj-column width="30%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h1" color="#035E42" padding="0 15px">
+            10.97
+          </mj-text>
+        </mj-column>
+        <mj-column width="60%" background-color="#ffffff" vertical-align="middle" padding="0">
+          <mj-text mj-class="body-text" font-weight="700" padding="0 15px">
+            Average training frequency
+          </mj-text>
+          <mj-text mj-class="body-text" padding="0 15px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- H3 Icon Section w/Button  -->
+    <mj-section padding="15px 0 15px 0" background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-image align="left" width="40px" src="https://via.placeholder.com/40x40" alt="" />
+        <mj-text mj-class="h3">
+          H3 Lorem ipsum dolor sit
+        </mj-text>
+        <mj-text mj-class="body-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque. Phasellus non odio turpis. Nam eu orci ipsum. In eget venenatis purus, vulputate tempor eros.
+        </mj-text>
+        <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+          Lorem ipsum
+        </mj-button>
+        <mj-divider border-style="solid" border-width="1px" border-color="#CECECE" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Green Stats Section  -->
+    <mj-wrapper padding="30px 25px 0px 25px" background-color="#ffffff">
+      <!-- First Box -->
+      <mj-section background-color="#DEFCE5" padding="15px 0">
+        <mj-column width="20%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h2" color="#035E42" padding="0 15px">
+            89%
+          </mj-text>
+        </mj-column>
+        <mj-column width="70%" background-color="#DEFCE5" vertical-align="middle" padding="0">
+          <mj-text mj-class="h4" padding="0 15px">
+            Lorem ipsum dolor last month
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+      <!-- Second Box -->
+      <mj-section background-color="#DEFCE5" padding="15px 0">
+        <mj-column width="20%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h2" color="#035E42" padding="0 15px">
+            10.38
+          </mj-text>
+        </mj-column>
+        <mj-column width="70%" background-color="#DEFCE5" vertical-align="middle" padding="0">
+          <mj-text mj-class="h4" padding="0 15px">
+            Lorem ipsum dolor last month
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+      <!-- Third Box -->
+      <mj-section background-color="#DEFCE5" padding="15px 0">
+        <mj-column width="20%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h2" color="#035E42" padding="0 15px">
+            63%
+          </mj-text>
+        </mj-column>
+        <mj-column width="70%" background-color="#DEFCE5" vertical-align="middle" padding="0">
+          <mj-text mj-class="h4" padding="0 15px">
+            Lorem ipsum dolor last month
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+      <!-- Fourth Box -->
+      <mj-section background-color="#DEFCE5" padding="15px 0">
+        <mj-column width="20%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h2" color="#035E42" padding="0 15px">
+            10.7
+          </mj-text>
+        </mj-column>
+        <mj-column width="70%" background-color="#DEFCE5" vertical-align="middle" padding="0">
+          <mj-text mj-class="h4" padding="0 15px">
+            Lorem ipsum dolor last month
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- H2 Section White Background w/o Image -->
+    <mj-section padding="25px 0 40px 0" background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-text padding="40px 0 0 0" mj-class="h2" align="center">
+          H2 Knowledge
+        </mj-text>
+        <mj-text mj-class="body-text" align="center" padding="20px 75px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque ante, sagittis id feugiat nec, porta a neque.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Purple Stats Section  -->
+    <mj-wrapper padding="0 25px 40px 25px" background-color="#ffffff">
+      <!-- First Box -->
+      <mj-section background-color="#E5DEF9" padding="15px 0">
+        <mj-column width="20%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h2" color="#035E42" padding="0 15px">
+            89%
+          </mj-text>
+        </mj-column>
+        <mj-column width="70%" background-color="#E5DEF9" vertical-align="middle" padding="0">
+          <mj-text mj-class="h4" padding="0 15px">
+            Lorem ipsum dolor last month
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+      <!-- Second Box -->
+      <mj-section background-color="#E5DEF9" padding="15px 0">
+        <mj-column width="20%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h2" color="#035E42" padding="0 15px">
+            10.38
+          </mj-text>
+        </mj-column>
+        <mj-column width="70%" background-color="#E5DEF9" vertical-align="middle" padding="0">
+          <mj-text mj-class="h4" padding="0 15px">
+            Lorem ipsum dolor last month
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+      <!-- Third Box -->
+      <mj-section background-color="#E5DEF9" padding="15px 0">
+        <mj-column width="20%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h2" color="#035E42" padding="0 15px">
+            63%
+          </mj-text>
+        </mj-column>
+        <mj-column width="70%" background-color="#E5DEF9" vertical-align="middle" padding="0">
+          <mj-text mj-class="h4" padding="0 15px">
+            Lorem ipsum dolor last month
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+      <!-- Fourth Box -->
+      <mj-section background-color="#E5DEF9" padding="15px 0">
+        <mj-column width="20%" vertical-align="middle" padding="0">
+          <mj-text mj-class="h2" color="#035E42" padding="0 15px">
+            10.7
+          </mj-text>
+        </mj-column>
+        <mj-column width="70%" background-color="#E5DEF9" vertical-align="middle" padding="0">
+          <mj-text mj-class="h4" padding="0 15px">
+            Lorem ipsum dolor last month
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    </mj-section>
+
+
+
+    <!-- Footer -->
+    <mj-section padding="20px 0 25px 0">
+      <mj-column width="100%">
+        <mj-image padding="20px 0 15px 0" width="100px" src="https://info.axonify.com/rs/883-PFS-793/images/Axonify-Logo-Full Color%402x.png" alt="" />
+        <mj-social icon-size="15px" mode="horizontal" inner-padding="0 20px 0px 20px" padding-bottom="20px">
+          <mj-social-element href="https://linkedin.com/company/axonify" src="https://info.axonify.com/rs/883-PFS-793/images/LinkedIn%402x.png">
+          </mj-social-element>
+          <mj-social-element href="https://twitter.com/Axonify" src="https://info.axonify.com/rs/883-PFS-793/images/Twitter%402x.png">
+          </mj-social-element>
+          <mj-social-element href="https://www.instagram.com/lifewithaxonify/" src="https://info.axonify.com/rs/883-PFS-793/images/Instagram%402x.png">
+          </mj-social-element>
+          <mj-social-element href="https://facebook.com/Axonify/" src="https://info.axonify.com/rs/883-PFS-793/images/Facebook%402x.png">
+          </mj-social-element>
+          <mj-social-element href="https://www.youtube.com/user/axonifylearning" src="https://info.axonify.com/rs/883-PFS-793/images/youtube%402x.png">
+          </mj-social-element>
+        </mj-social>
+        <mj-text align="center" mj-class="footer-text" color="#474747">
+          450 Phillip St. Waterloo ON Canada N2L 5J2
+        </mj-text>
+        <mj-text mj-class="footer-text" align="center" color="#474747">
+          <a style="color:#474747; text-decoration:underline" href="">Unbsubscribe</a> | <a style="color:#474747; text-decoration:underline" href="https://axonify.com/legal/privacy-policy/">Privacy Policy</a> | <a style="color:#474747; text-decoration:underline" href="https://axonify.com/contact/">Contact Us</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

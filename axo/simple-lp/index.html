@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AXO | Simple LP</title>
+    <link rel="icon" type="image/x-icon" href="https://info.axonify.com/rs/883-PFS-793/images/axonify-favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        @font-face {
+            font-family: 'BuenosAiresWeb-Book';
+            src: url('https://info.axonify.com/rs/883-PFS-793/images/BuenosAiresWeb-Book.woff2');
+            src: url('https://info.axonify.com/rs/883-PFS-793/images/BuenosAiresWeb-Book.woff');
+        }
+
+        @font-face {
+            font-family: 'MessinaSansWeb-Black';
+            src: url('https://info.axonify.com/rs/883-PFS-793/images/MessinaSansWeb-Black.woff2');
+            src: url('https://info.axonify.com/rs/883-PFS-793/images/MessinaSansWeb-Black.woff');
+
+        }
+
+        @font-face {
+            font-family: 'MessinaSansWeb-Bold';
+            src: url('https://info.axonify.com/rs/883-PFS-793/images/MessinaSansWeb-Bold.woff');
+            src: url('https://info.axonify.com/rs/883-PFS-793/images/MessinaSansWeb-Bold.woff2');
+        }
+
+        h1 {
+            font-family: 'MessinaSansWeb-Black';
+            font-size: 3.875rem;
+            color: #252d2a;
+            line-height: 1.25;
+        }
+
+        h2 {
+            font-family: 'MessinaSansWeb-Black';
+            font-size: 3.125rem;
+            color: #252d2a;
+            line-height: 1.25;
+        }
+
+        h3 {
+            font-family: 'MessinaSansWeb-Bold';
+            font-size: 2rem;
+            color: #252d2a;
+            line-height: 1.25;
+        }
+
+        h4 {
+            font-family: 'MessinaSansWeb-Bold';
+            font-size: 1.5rem;
+            color: #252d2a;
+            line-height: 1.25;
+        }
+
+        .eyebrow {
+            font-family: 'MessinaSansWeb-Bold';
+            font-size: 1.125rem;
+            color: #252d2a;
+            line-height: 1.25;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-family: 'BuenosAiresWeb-Book';
+            font-size: 1.125rem;
+            color: #252d2a;
+            line-height: 1.50;
+        }
+
+        ul,
+        li {
+            font-family: 'BuenosAiresWeb-Book';
+            font-size: 1.125rem;
+            color: #252d2a;
+            line-height: 1.50;
+        }
+
+        .legal {
+            font-family: 'BuenosAiresWeb-Book';
+
+            color: #252d2a;
+            line-height: 1.25;
+            font-size: .75rem;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #252d2a;
+        }
+
+        .btn {
+            background-color: #F7B7F1;
+            color: #252d2a;
+            font-family: 'MessinaSansWeb-Black';
+            font-size: 1rem;
+            border-radius: 20px;
+            padding: .56rem 1.25rem;
+
+        }
+
+        .btn:hover {
+            background-color: #E28DDE;
+        }
+
+        /* .navbar-brand {
+            padding: 1rem 1rem 4rem 1rem;
+        } */
+
+        .container-xl {
+            padding: 0 2rem;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .form-bg-container::before {
+            content: '';
+            background-image: url("https://info.axonify.com/rs/883-PFS-793/images/bkgd image.svg") !important;
+            position: absolute;
+            height: 34.75rem;
+            width: 32.1875rem;
+            transform: translate(3%, -5%);
+            overflow: hidden;
+            background-repeat: no-repeat;
+            z-index: -1;
+            /* border-radius: 8px; */
+
+        }
+
+        /* .form-bg-container img {
+            overflow: hidden;
+        } */
+
+
+        .hero-image {
+            width: 16.4375rem;
+            height: auto;
+            /* margin: 2.5rem 0; */
+            margin: 0 auto;
+            /* justify-content: end; */
+        }
+
+        .h2-section {
+            margin: 5rem 0 4.375rem 0;
+        }
+
+
+        .logo-section {
+            /* margin-top: 4.375rem; */
+            margin-bottom: 5rem;
+        }
+
+
+        .logo-row {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* .form-section {
+            background-image: url(https://info.axonify.com/rs/883-PFS-793/images/lp-form-background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        } */
+
+        #hero-image {
+            margin: 0 auto !important;
+            ;
+        }
+
+        .hero-image {
+            margin: 0 auto !important;
+        }
+
+        #mkto_gen_hero-image {
+            margin: 0 auto !important;
+        }
+
+        .mktoImg.mktoGen {
+            text-align: center;
+            display: flex !important;
+            margin: 0 auto !important;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            box-shadow: 0px 0px 8px rgba(175, 175, 175, 0.5);
+            border-radius: 4px;
+        }
+
+
+        .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+            background-color: #F7B7F1 !important;
+            color: #252d2a !important;
+            font-size: 1rem !important;
+            font-family: 'MessinaSansWeb-Black' !important;
+            border-radius: 20px !important;
+            background-image: none !important;
+            border: none !important;
+        }
+
+        .mktoForm span {
+            margin: 0 auto !important;
+        }
+
+
+        .mktoForm * {
+            float: none !important;
+        }
+
+        .mktoFrom .mktoCheckboxList>input {
+            width: 25% !important;
+        }
+
+        .mktoForm {
+            width: 100% !important;
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .mktoFormRow {
+            display: flex !important;
+        }
+
+        .mktoFieldDescriptor {
+            display: flex !important;
+            flex-direction: row !important;
+        }
+
+        .mktoButtonRow {
+            display: flex !important;
+            padding-top: 1.5rem !important;
+        }
+
+        .mktoRequiredField {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .mktoFieldDescriptor .mktoFieldWrap {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .mktoFieldWrap .mktoCheckboxList {
+            width: 10% !important;
+        }
+
+        .mktoFieldWrap #LblemailOptin {
+            display: flex !important;
+            flex-direction: column !important;
+            width: 90% !important;
+            margin: 0 !important;
+        }
+
+        .mktoForm .mktoLabel {
+            width: 100% !important;
+        }
+
+        .mktoFieldWrap #emailOptin {
+            width: 100% !important;
+            /* margin: 0 !important; */
+        }
+
+        .mktoAsterix {
+            display: none !important;
+        }
+
+        .mktoForm .mktoHasWidth .mktoLayoutLeft {
+            width: 100% !important;
+        }
+
+        /* .mktoFieldDescriptor .mktoFormCol {} */
+
+        .mktoForm input {
+            width: 300px !important;
+            font-size: 1rem !important;
+            font-family: 'BuenosAiresWeb-Book' !important;
+            font-size: 1.125rem !important;
+            color: #252d2a !important;
+            line-height: 1.25 !important;
+        }
+
+
+
+        .mktoForm a {
+            text-decoration: underline !important;
+            color: #252d2a !important;
+        }
+
+        .mktoForm .mktoRequiredField label.mktoLabel {
+            font-size: 1rem !important;
+            font-family: 'BuenosAiresWeb-Book' !important;
+            color: #252d2a o !important;
+            line-height: 1.25 !important;
+            width: 100% !important;
+        }
+
+        .mktoForm .mktoGutter {
+            height: 0;
+        }
+
+        .mktoGutter {
+            height: 0 ! important;
+        }
+
+        .mktoOffset {
+            width: 0px !important;
+            height: 1rem !important;
+        }
+
+        /* .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+            background-color: #F7B7F1 !important;
+            color: #252d2a !important;
+            font-size: 1rem !important;
+            font-family: 'MessinaSansWeb-Black' !important;
+            border-radius: 20px !important;
+            background-image: none !important;
+            border: none !important;
+        }
+
+        .mktoForm span {
+            margin: 0 auto !important;
+        }
+
+
+        .mktoForm * {
+            float: none !important;
+        }
+
+        .mktoFrom .mktoCheckboxList>input {
+            width: 10% !important;
+        }
+
+        .mktoForm {
+            width: 100% !important;
+        }
+
+        .mktoForm .mktoLabel {
+            width: 100% !important;
+        }
+
+        #emailOptin {
+            width: 10% !important;
+        }
+
+        .mktoAsterix {
+            display: none !important;
+        }
+
+        .mktoForm .mktoHasWidth .mktoLayoutLeft {
+            width: 100% !important;
+        } */
+
+        /* .mktoFieldDescriptor .mktoFormCol {} */
+
+        /* .mktoForm input {
+            width: 300px !important;
+            font-size: 1rem !important;
+            font-family: 'BuenosAiresWeb-Book' !important;
+            font-size: 1.125rem !important;
+            color: #252d2a !important;
+            line-height: 1.25 !important;
+        }
+
+
+
+        .mktoForm a {
+            text-decoration: underline !important;
+            color: #252d2a !important;
+        }
+
+        .mktoForm .mktoRequiredField label.mktoLabel {
+            font-size: 1rem !important;
+            font-family: 'BuenosAiresWeb-Book' !important;
+            color: #252d2a o !important;
+            line-height: 1.25 !important;
+            width: 100% !important;
+        }
+
+        .mktoForm .mktoGutter {
+            height: 0;
+        } */
+
+        .footer-section {
+            background-color: #efefef;
+            border-radius: 4px;
+
+        }
+
+
+        @media screen and (max-width: 1505px) {
+            .form-bg-container::before {
+                width: 26.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 1238px) {
+            .form-bg-container::before {
+                width: 22.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .form-bg-container::before {
+                width: 28.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 1135px) {
+            .form-bg-container::before {
+                width: 27.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 1092px) {
+            .form-bg-container::before {
+                width: 26.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 1060px) {
+            .form-bg-container::before {
+                width: 25.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 999px) {
+
+            /* .hero-image {
+                width: 22.5rem;
+                ;
+            } */
+
+
+            .form-bg-container::before {
+                width: 24.1875rem;
+            }
+
+            .hero-image img {
+                width: 13.4375rem;
+            }
+
+        }
+
+        @media screen and (max-width: 985px) {
+            .form-bg-container::before {
+                width: 28.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 950px) {
+            .form-bg-container::before {
+                width: 27.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 905px) {
+            .form-bg-container::before {
+                width: 26.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 890px) {
+            .form-bg-container::before {
+                width: 25.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 845px) {
+            .form-bg-container::before {
+                width: 24.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 820px) {
+            .form-bg-container::before {
+                width: 23.1875rem;
+            }
+        }
+
+        @media screen and (max-width: 788px) {
+            .form-bg-container::before {
+                width: 22.1875rem;
+            }
+        }
+
+
+        @media screen and (max-width: 769px) {
+
+            h1 {
+                font-size: 3.275rem;
+                line-height: 1.25;
+            }
+
+            h2 {
+                font-size: 2.825rem;
+                line-height: 1.25;
+            }
+
+            h3 {
+                font-size: 1.8rem;
+                line-height: 1.25;
+            }
+
+            h4 {
+                font-size: 1.5rem;
+                line-height: 1.25;
+            }
+
+
+            .form-bg-container {
+                margin-top: 2rem;
+            }
+
+            .form-bg-container::before {
+                width: 28.1875rem;
+            }
+
+            .eyebrow {
+                font-size: 1.125rem;
+                line-height: 1.25;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 1.125rem;
+                line-height: 1.25;
+            }
+
+
+            .container-xl {
+                padding: 0 1rem;
+
+            }
+
+            .hero-copy {
+                margin-bottom: rem;
+            }
+
+            .form-bg-container {
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .form-bg-container::before {
+                width: 32.1875rem;
+            }
+
+            .form-container {
+                margin-top: 1.5rem;
+            }
+        }
+
+        @media screen and (max-width: 654px) {
+            .form-bg-container::before {
+                width: 26.1875rem;
+            }
+        }
+
+
+        @media screen and (max-width: 600px) {
+
+            h1 {
+                font-size: 2.875rem;
+                line-height: 1.25;
+            }
+
+            h2 {
+                font-size: 2.125rem;
+                line-height: 1.25;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+                line-height: 1.25;
+            }
+
+            h4 {
+                font-size: 1rem;
+                line-height: 1.25;
+            }
+
+            .eyebrow {
+                font-size: 1.125rem;
+                line-height: 1.25;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 1rem;
+                line-height: 1.25;
+            }
+
+            .mktoForm {
+                padding: 0 !important;
+            }
+
+            .form-bg-container::before {
+                /* width: 29.1875rem; */
+                display: none;
+            }
+
+        }
+    </style>
+
+    <!-- Marekto Meta Start -->
+    <meta class="mktoBoolean" id="heroForm" mktoName="Show Hero w/Image?" default="true" false_value="none"
+        true_value="flex" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="clientLogos" mktoName="Show Client Logos?" default="true" false_value="none"
+        true_value="flex" false_value_name="Hide" true_value_name="Show">
+
+
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <nav class="navbar bg-body m-auto">
+        <div class="container-xl">
+            <a class="navbar-brand" href="https://axonify.com/">
+                <img src="https://info.axonify.com/rs/883-PFS-793/images/Axonify-Logo-Full Color 1-%402x.png"
+                    alt="Axonify logo" width="125" height="45">
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container-xl">
+
+        <!-- Hero Section w/Image -->
+
+        <div class="mt-5 heroForm hero-section row justify-content-between py-5" style="display:${heroForm};">
+            <div class="col-xl-7 col-md-6 col-sm-12 d-flex  flex-column">
+                <p class="eyebrow mktoText" id="hero-text" mktoName="Hero Eyebrow">Eyebrow</p>
+                <h2 class="mktoText mb-4" id="hero-h2" mktoName="Hero H2">H2 Lorem ipsum dolor sit amet consecteur</h2>
+                <div class="hero-image text-center mktoImg" id="hero-image" mktoName="Hero Image">
+                    <img src="https://via.placeholder.com/263x155" alt="" width="263" height="auto" loading="lazy">
+                </div>
+                <h4 class="my-4 mktoText" id="hero-h4" mktoName="Hero H4">H4 Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit.</h4>
+
+                <p class="mktoText" id="list-lead-in" mktoName="List Lead In Text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque:</p>
+                <ul>
+                    <li class="mktoText my-4" id="hero-list-item-1" mktoName="List Item 1">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Maecenas fermentum neque eu mi
+                        elementum, eu porta odio commodo.</li>
+                    <li class="mktoText my-4" id="hero-list-item-2" mktoName="List Item 2">Donec porta vel nibh placerat
+                        posuere. Phasellus quis sem iaculis, volutpat turpis quis, cursus
+                        felis. Maecenas feugiat tortor sit.</li>
+                    <li class="mktoText my-4" id="hero-list-item-3" mktoName="List Item 3">In hac habitasse platea
+                        dictumst.
+                        Curabitur pharetra convallis lacinia. Nullam cursus ex eu
+                        velit finibus, ut dignissim velit varius. </li>
+                </ul>
+            </div>
+            <div class="form-bg-container col-xl-4 col-lg-5 col-md-6 col-sm-8 col-12 ">
+                <div class="form-container mb-1 pt-5 px-4">
+                    <h3 class="text-left">H3 Lorem ipsum dolor</h3>
+                    <div align="left" class="mktoForm" id="form" mktoName="Form">
+                    </div>
+                    <script src="//info.axonify.com/js/forms2/js/forms2.js"></script>
+
+                    <script>
+
+                        MktoForms2.whenReady(function (form) {
+
+                            // Tweak the email opt-in checkbox styles
+                            const emailOptinSection = document.getElementById("LblemailOptin");
+                            const emailOptinWrap = emailOptinSection.parentElement;
+                            emailOptinWrap.setAttribute("style", "flex-flow: row-reverse !important");
+
+                            //Add an onSuccess handler
+
+                            form.onSuccess(function (values, followUpUrl) {
+
+                                //get the form's jQuery element and hide it
+
+                                form.getFormElem().hide();
+
+                                document.getElementById('confirmform').style.visibility = 'visible';
+
+                                //return false to prevent the submission handler from taking the lead to the follow up url.
+
+                                return false;
+
+                            });
+
+                        });
+
+                    </script>
+
+                    <div id="confirmform" style="visibility:hidden;">
+                        <p><strong>Thank you. Check your email for details on your request.</strong></p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- H2 Logo Section-->
+        <div class="h2Header7 row h2-section text-center" style="display: ${h2Header7};">
+            <h2 class="mb-4 mktoText" id="h2-header-7-h2" mktoName="H2 Header 7 H2">H2 Proven in the real world. Loved
+                on the frontlines.</h2>
+            <p class="mktoText" id="h2-header-7-p" mktoName="H2 Header 7 Text"> Place client logos here for social
+                proof. consectetur adipiscing elit.
+            </p>
+        </div>
+
+        <!-- Client Logos -->
+
+        <div class="clientLogos row align-items-center logo-section" style="display: ${clientLogos};">
+            <div class="logo-row col-12 text-center py-3">
+                <img class="p-1 img-fluid mktoImg" id="client-logo-1" mktoName="Client Logo 1"
+                    src="https://info.axonify.com/rs/883-PFS-793/images/SE Grocers.png" alt="" width="158" height="auto"
+                    loading="lazy">
+                <img class="p-1 img-fluid mktoImg" id="client-logo-2" mktoName="Client Logo 2"
+                    src="https://info.axonify.com/rs/883-PFS-793/images/Kroger.png" alt="" width="158" height="auto"
+                    loading="lazy">
+                <img class="p-1 img-fluid mktoImg" id="client-logo-3" mktoName="Client Logo 3"
+                    src="https://info.axonify.com/rs/883-PFS-793/images/Walmart.png" alt="" width="158" height="auto"
+                    loading="lazy">
+                <img class="p-1 img-fluid mktoImg" id="client-logo-4" mktoName="Client Logo 4"
+                    src="https://info.axonify.com/rs/883-PFS-793/images/SE Grocers-1.png" alt="" width="158"
+                    height="auto" loading="lazy">
+                <img class="p-1 img-fluid mktoImg" id="client-logo-5" mktoName="Client Logo 5"
+                    src="https://info.axonify.com/rs/883-PFS-793/images/Levis.png" alt="" width="158" height="auto"
+                    loading="lazy">
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer-section d-flex justify-content-center">
+        <div class="row align-items-center d-flex justify-content-center py-5">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="https://axonify.com/"><img
+                        src="https://info.axonify.com/rs/883-PFS-793/images/Axonify-Logo-Full Color%402x.png"
+                        alt="Axonify logo" width="100" height="auto"></a>
+            </div>
+            <!-- <div class="col-12 d-flex justify-content-center">
+                <img class="p-1 img-fluid" src="https://via.placeholder.com/158x100" alt="" width="30" height="auto"
+                    loading="lazy">
+                <img class="p-1 img-fluid" src="https://via.placeholder.com/158x100" alt="" width="30" height="auto"
+                    loading="lazy">
+                <img class="p-1 img-fluid" src="https://via.placeholder.com/158x100" alt="" width="30" height="auto"
+                    loading="lazy">
+                <img class="p-1 img-fluid" src="https://via.placeholder.com/158x100" alt="" width="30" height="auto"
+                    loading="lazy">
+                <img class="p-1 img-fluid" src="https://via.placeholder.com/158x100" alt="" width="30" height="auto"
+                    loading="lazy">
+            </div> -->
+            <div class="col-12 d-flex justify-content-center pt-2">
+                <a class="legal" href="https://axonify.com/legal/privacy-policy/">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

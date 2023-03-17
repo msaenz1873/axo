@@ -1,0 +1,378 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="h1" font-family="Arial" font-size="38px" color="#252D2A" font-weight="700" line-height="1.18" />
+      <mj-class name="h2" font-family="Arial" font-size="24px" color="#252D2A" font-weight="700" line-height="1.25" />
+      <mj-class name="h3" font-family="Arial" font-size="20px" color="#252D2A" font-weight="700" line-height="1.5" />
+      <mj-class name="h4" font-family="Arial" font-size="16px" color="#252D2A" font-weight="700" line-height="1.5" />
+      <mj-class name="quote-text" font-family="Arial" font-size="20px" color="#252D2A" font-weight="400" line-height="1.5" />
+      <mj-class name="eyebrow-text" font-family="Arial" font-size="14px" color="#252D2A" font-weight="700" line-height="1.5" text-transform="uppercase" />
+      <mj-class name="body-text" font-family="Arial" font-size="16px" color="#252D2A" font-weight="400" line-height="1.5" />
+      <mj-class name="footer-text" font-family="Arial" font-size="12px" color="#474747" font-weight="400" line-height="1.5" />
+      <mj-class name="link-text" font-family="Arial" font-size="12px" color="#474747" font-weight="400" line-height="1.5" text-decoration="underline" />
+      <mj-class name="button-text" font-family="Arial" font-size="16px" color="#252D2A" font-weight="700" line-height="1.5" />
+
+      <mj-class name="main-container" background-color="#ffffff" />
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#efefef">
+    <!-- Logo -->
+    <mj-wrapper mj-class="main-container">
+      <mj-section>
+        <mj-column width="100%" padding="15px 0 15px 0">
+          <mj-image align="left" width="100px" src="https://info.axonify.com/rs/883-PFS-793/images/Axonify-Logo-Full Color%402x.png" alt="Axonify logo" />
+        </mj-column>
+      </mj-section>
+      <!-- The Bite Hero Hero -->
+      <mj-section>
+        <mj-column width="100%" padding="0px">
+          <mj-image align="center" width="600px" src="https://via.placeholder.com/600x180" alt="" padding="0 0 50px 0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Air Mail Hero -->
+      <mj-section>
+        <mj-column width="100%" padding="0px">
+          <mj-image align="center" width="600px" src="https://info.axonify.com/rs/883-PFS-793/images/Altitude-email-header-desktop.png" alt="" padding="0 0 50px 0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Newsletter Hero -->
+      <mj-section>
+        <mj-column width="100%" padding="0px">
+          <mj-image align="center" width="540px" src="https://via.placeholder.com/540x250" alt="" padding="0 0 50px 0" />
+        </mj-column>
+      </mj-section>
+      <!-- Type Styles  -->
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text mj-class="eyebrow-text">
+            Optional Eyebrow
+          </mj-text>
+          <mj-text mj-class="h1">
+            H1 Lorem ipsum dolor sit amet consecteur
+          </mj-text>
+          <mj-text mj-class="h2">
+            H2 Lorem ipsum dolor sit amet consecteur
+          </mj-text>
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit amet consecteur
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Optional Hello there,
+          </mj-text>
+          <mj-text mj-class="body-text">
+            This could be long or it could be short. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+          <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Test Section -->
+
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text>
+            <h4 mj-class="eyebrow-text">Optional Eyebrow</h4>
+            <h1 mj-class="h1">H1 Lorem ipsum dolor sit amet consecteur</h1>
+
+            <h2 mj-class="h2"> H2 Lorem ipsum dolor sit amet consecteur</h2>
+
+
+            <h3 mj-class="h3"> H3 Lorem ipsum dolor sit amet consecteur</h3>
+
+
+            <p mj-class="body-text"> Optional Hello there,</p>
+
+            <p mj-class="body-text"> This could be long or it could be short. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque.</p>
+          </mj-text>
+          <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Intro Section -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="100%">
+          <mj-text mj-class="eyebrow-text">
+            Optional Eyebrow
+          </mj-text>
+          <mj-text mj-class="h1">
+            H1 Lorem ipsum dolor sit amet consecteur
+          </mj-text>
+          <mj-text mj-class="h2">
+            H2 Lorem ipsum dolor sit amet consecteur
+          </mj-text>
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit amet consecteur
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Optional Hello there,
+          </mj-text>
+          <mj-text mj-class="body-text">
+            This could be long or it could be short. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- H2 Section w/Image Right -->
+      <mj-section padding="15px 0 15px 0" direction="rtl">
+        <mj-column width="50%">
+          <mj-image width="250px" align="center" src="https://via.placeholder.com/250x250" alt="" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text mj-class="h2">
+            H2 Lorem ipsum dolor sit
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+          <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- H2 Section w/Image Right w/o Button -->
+      <mj-section padding="15px 0 15px 0" direction="rtl">
+        <mj-column width="50%">
+          <mj-image width="250px" align="center" src="https://via.placeholder.com/250x250" alt="" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text mj-class="h2">
+            H2 Lorem ipsum dolor sit
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- H2 Section w/Image Left -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="50%">
+          <mj-image width="250px" align="center" src="https://via.placeholder.com/250x250" alt="" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text mj-class="h2">
+            H2 Lorem ipsum dolor sit
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+          <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- H2 Section w/Image Left w/o Button -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="50%">
+          <mj-image width="250px" align="center" src="https://via.placeholder.com/250x250" alt="" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text mj-class="h2">
+            H2 Lorem ipsum dolor sit
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- CTA Section w/Image -->
+      <mj-section background-color="#035E42">
+        <mj-column width="100%">
+          <mj-image width="160px" padding-top="40px" align="center" src="https://via.placeholder.com/160x150" alt="" />
+          <mj-text mj-class="h2" align="center" color="#ffffff">
+            H2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </mj-text>
+          <mj-text mj-class="body-text" align="center" color="#ffffff">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+          <mj-button padding="20px 0 40px 0" align="center" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- CTA Section w/o Image -->
+      <mj-section background-color="#035E42">
+        <mj-column width="100%">
+          <mj-text padding="40px 0px" mj-class="h2" align="center" color="#ffffff">
+            H2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </mj-text>
+          <mj-text mj-class="body-text" align="center" color="#ffffff">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+          <mj-button padding="20px 0 40px 0" align="center" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- H2 Section White Background w/o Image -->
+      <mj-section padding="40px 0">
+        <mj-column width="100%">
+          <mj-text padding="40px 0 0 0" mj-class="h2" align="center">
+            H2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </mj-text>
+          <mj-text mj-class="body-text" align="center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- H3 Section w/Image -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="50%">
+          <mj-image width="250px" align="center" src="https://via.placeholder.com/250x250" alt="" />
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit amet
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Donec porta vel nibh placerat posuere. Phasellus quis sem iaculis, volutpat turpis quis, cursus felis. Maecenas feugiat tortor sit.
+          </mj-text>
+          <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image width="250px" align="center" src="https://via.placeholder.com/250x250" alt="" />
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit amet
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Donec porta vel nibh placerat posuere. Phasellus quis sem iaculis, volutpat turpis quis, cursus felis. Maecenas feugiat tortor sit.
+          </mj-text>
+          <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- H3 Section w/Image w/o Button -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="50%">
+          <mj-image width="250px" align="center" src="https://via.placeholder.com/250x250" alt="" />
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit amet
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Donec porta vel nibh placerat posuere. Phasellus quis sem iaculis, volutpat turpis quis, cursus felis. Maecenas feugiat tortor sit.
+          </mj-text>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image width="250px" align="center" src="https://via.placeholder.com/250x250" alt="" />
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit amet
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Donec porta vel nibh placerat posuere. Phasellus quis sem iaculis, volutpat turpis quis, cursus felis. Maecenas feugiat tortor sit.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- H2 Section White Background w/o Image -->
+      <mj-section padding="40px 0">
+        <mj-column width="100%">
+          <mj-text padding="40px 0 0 0" mj-class="h2" align="center">
+            H2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </mj-text>
+          <mj-text mj-class="body-text" align="center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- H3 Icon Section w/Button  -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="100%">
+          <mj-image align="left" width="40px" src="https://via.placeholder.com/40x40" alt="" />
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque. Phasellus non odio turpis. Nam eu orci ipsum. In eget venenatis purus, vulputate tempor eros.
+          </mj-text>
+          <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+          <mj-divider border-style="solid" border-width="1px" border-color="#CECECE" />
+        </mj-column>
+      </mj-section>
+      <!-- H3 Icon Section w/o Button  -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="100%">
+          <mj-image align="left" width="40px" src="https://via.placeholder.com/40x40" alt="" />
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque. Phasellus non odio turpis. Nam eu orci ipsum. In eget venenatis purus, vulputate tempor eros.
+          </mj-text>
+          <mj-divider border-style="solid" border-width="1px" border-color="#CECECE" />
+        </mj-column>
+      </mj-section>
+      <!-- H3 Image Section w/Button  -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="100%">
+          <mj-image align="left" width="100px" src="https://via.placeholder.com/100x100" alt="" />
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque. Phasellus non odio turpis. Nam eu orci ipsum. In eget venenatis purus, vulputate tempor eros.
+          </mj-text>
+          <mj-button padding="20px 0 20px 25px" align="left" mj-class="button-text" background-color="#F7B7F1" border-radius="20px" href="https://axonify.com/">
+            Lorem ipsum
+          </mj-button>
+          <mj-divider border-style="solid" border-width="1px" border-color="#CECECE" />
+        </mj-column>
+      </mj-section>
+      <!-- H3 Image Section w/o Button  -->
+      <mj-section padding="15px 0 15px 0">
+        <mj-column width="100%">
+          <mj-image align="left" width="100px" src="https://via.placeholder.com/100x100" alt="" />
+          <mj-text mj-class="h3">
+            H3 Lorem ipsum dolor sit
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque ante, sagittis id feugiat nec, porta a neque. Phasellus non odio turpis. Nam eu orci ipsum. In eget venenatis purus, vulputate tempor eros.
+          </mj-text>
+          <mj-divider border-style="solid" border-width="1px" border-color="#CECECE" />
+        </mj-column>
+      </mj-section>
+      <!-- Quote Section -->
+      <mj-section padding="15px 30px 15px 30px">
+        <mj-column width="100%" background-color="#DEFCE5" padding="20px 0">
+          <mj-image align="left" width="40px" src="https://info.axonify.com/rs/883-PFS-793/images/quote marks%402x.png" alt="Quote Marks" />
+          <mj-text mj-class="quote-text" color="#037F44">
+            Quote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque ante, sagittis id feugiat nec, porta a neque.
+          </mj-text>
+          <mj-text mj-class="eyebrow-text" color="#037F44">
+            – Lorem ipsum dolor
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- Footer -->
+    <mj-section padding="20px 0 25px 0">
+      <mj-column width="100%">
+        <mj-image padding="20px 0 15px 0" width="100px" src="https://info.axonify.com/rs/883-PFS-793/images/Axonify-Logo-Full Color%402x.png" alt="" />
+        <mj-social icon-size="15px" mode="horizontal" inner-padding="0 20px 0px 20px" padding-bottom="20px">
+          <mj-social-element href="https://linkedin.com/company/axonify" src="https://info.axonify.com/rs/883-PFS-793/images/LinkedIn%402x.png">
+          </mj-social-element>
+          <mj-social-element href="https://twitter.com/Axonify" src="https://info.axonify.com/rs/883-PFS-793/images/Twitter%402x.png">
+          </mj-social-element>
+          <mj-social-element href="https://www.instagram.com/lifewithaxonify/" src="https://info.axonify.com/rs/883-PFS-793/images/Instagram%402x.png">
+          </mj-social-element>
+          <mj-social-element href="https://facebook.com/Axonify/" src="https://info.axonify.com/rs/883-PFS-793/images/Facebook%402x.png">
+          </mj-social-element>
+          <mj-social-element href="https://www.youtube.com/user/axonifylearning" src="https://info.axonify.com/rs/883-PFS-793/images/youtube%402x.png">
+          </mj-social-element>
+        </mj-social>
+        <mj-text align="center" mj-class="footer-text" color="#474747">
+          450 Phillip St. Waterloo ON Canada N2L 5J2
+        </mj-text>
+        <mj-text mj-class="footer-text" align="center" color="#474747">
+          <a style="color:#474747; text-decoration:underline" href="">Unbsubscribe</a> | <a style="color:#474747; text-decoration:underline" href="https://axonify.com/legal/privacy-policy/">Privacy Policy</a> | <a style="color:#474747; text-decoration:underline" href="https://axonify.com/contact/">Contact Us</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
